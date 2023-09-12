@@ -1,10 +1,10 @@
 .app {
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: auto;
   transition: background-color 1s ease-in;
 }
 
-.app__header,
+/* .app__header,
 .app__main {
   width: 100%;
   display: flex;
@@ -14,12 +14,45 @@
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 /*  Search bar */
 
-/* Current weather */
+/******** Current weather **************/
 
-div {
-  border: 5px solid red;
+.content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(138, 204, 212);
 }
+
+img{
+  width: 15%;
+  height: 15%;
+  margin: auto auto;
+}
+h2{
+  color: white;
+}
+
+.firstPara{
+  font-size: 22px;
+  color: rgb(23, 23, 87);
+}
+.temp{
+  font-weight: bold;
+  font-size: 27px;
+  color: rgb(10, 10, 87);
+  margin-right: 10px;
+}
+
+.a{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  color: rgb(10, 10, 87);
+}
+
+
+
