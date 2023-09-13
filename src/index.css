@@ -1,5 +1,6 @@
 body {
-  margin: auto;
+  margin: auto ;
+  background-color: rgb(138, 204, 212);
 }
 *{
   font-family: "Raleway", sans-serif;
